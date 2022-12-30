@@ -46,7 +46,7 @@ app.route("/")
                 res.sendFile(__dirname + "/failure.html");
             }
             response.on("data", function (data) {
-               res.send("d:" + data);
+               //res.send("d:" + data);
                  //  console.log(JSON.parse(data))
                  //  console.log(data)
             });
